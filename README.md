@@ -57,7 +57,7 @@ Note that the geometry column needs to be explicitly _named_ `geometry` or you w
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
 
     cd datasette-geojson
-    python3 -mvenv venv
+    python3 -m venv venv
     source venv/bin/activate
 
 Or if you are using `pipenv`:
